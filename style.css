@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 150px;
+    color: blue;
+    background-color: coral;
+    height: 200px;
+}
+
+.img-nav{
+    display: flex;  
+}
+
+.img-border{
+    border-radius: 50%;
+    border: 100px;
+    padding: 10px;
+}
+
+.navbar{
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;   
+}
+
+li{
+    justify-content: flex-end;
+    margin-left: 300px;
+    padding: 20px;
+}
+
+
+.cards-section{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+article{
+    background-color: azure;
+    text-align: center;
+    border: solid black;
+    transition: 0.4s;
+}
+
+article:hover{
+    transform: scale(1.1);
+}
